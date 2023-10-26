@@ -1,0 +1,31 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is a test repo with multiple branches with nodejs examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvas1/test-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvas1/test-nodejs/issues"
+  },
+  "homepage": "https://github.com/vvas1/test-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
